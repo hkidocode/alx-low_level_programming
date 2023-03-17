@@ -1,3 +1,5 @@
+#include <sdtio.h>
+
 /**
  * main - program that prints size of data types usinf sizeof function
  * Return: 0 (success)
