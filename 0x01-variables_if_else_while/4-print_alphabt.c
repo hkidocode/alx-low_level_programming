@@ -10,7 +10,7 @@ char c;
 
 for (c = 'A'; c <= 'Z'; c++)
 {
-if (c == 'Q' || c== 'E')
+if (c == 'Q' || c == 'E')
 continue;
 putchar(c + 32);
 }
