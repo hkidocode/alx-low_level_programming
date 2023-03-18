@@ -16,7 +16,7 @@ for (j = i + 1; j < 10; j++)
 putchar(48 + i);
 putchar(48 + j);
 
-if (i != 8 & j != 10)
+if (i != 8 && j != 10)
 {
 putchar(',');
 putchar(' ');
