@@ -3,8 +3,8 @@
 #include <time.h>
 
 /**
- * main - program that check if number n is positive, negative, or zero
- * return: 0 (success)
+ * Main - program that check if number n is positive, negative, or zero
+ * Return: 0 (success)
 */
 int main(void)
 {
