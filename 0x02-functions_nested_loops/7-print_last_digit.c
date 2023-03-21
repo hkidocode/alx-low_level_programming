@@ -6,7 +6,19 @@
 */
 int print_last_digit(int num)
 {
+int l;
 
-return (num % 10);
+l = num % 10;
+
+if (l < 0)
+{
+_putchar(-l + 48);
+return (-l);
+}
+else
+{
+_putchar(l + 48);
+return (l);
+}
 }
 
