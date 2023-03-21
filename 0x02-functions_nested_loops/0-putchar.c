@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <main.h>
 /**
  * main - program that print a word with putchar function
  * Return: 0 (success)
@@ -6,13 +6,14 @@
 int main(void)
 {
 
-char word[] = "_putchar";
-int i;
-
-for (i = 0; word[i] != '\0'; i++)
-{
-putchar(word[i]);
-}
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('r');
+_putchar('\n');
 
 return (0);
 }
