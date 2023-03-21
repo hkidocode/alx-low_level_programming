@@ -17,20 +17,20 @@ int tens = product / 10;
 int ones = product % 10;
 if (tens != 0)
 {
-putchar(product / 10 + '0');
+_putchar(product / 10 + '0');
 }
 else
 {
-putchar(' ');
+_putchar(' ');
 }
-putchar(product % 10 + '0');
+_putchar(product % 10 + '0');
 if (j != 9)
 {
-putchar(',');
-putchar(' ');
+_putchar(',');
+_putchar(' ');
 }
 }
-putchar('\n');
+_putchar('\n');
 }
 }
 
