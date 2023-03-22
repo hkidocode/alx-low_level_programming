@@ -14,7 +14,7 @@ if (num < 0)
 {
 num = -num;
 }
-
+_putchar(x + '0');
 return (x);
 
 
